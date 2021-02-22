@@ -25,4 +25,12 @@ class FormBase implements \pocketmine\form\Form{
         }
     }
 
+    public function sendForm(\pocketmine\Player $player) : bool{
+        if($player->isOnline()){
+            $player->sendForm($this);
+            return true;
+        }
+        return false;
+    }
+
 }
