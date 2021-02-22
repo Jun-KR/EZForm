@@ -7,10 +7,10 @@
 ```
 $form = new ButtonForm(function(Player $player, $data){  
   if($data === 0){  
-  echo "heelo Button!";  
+  echo "hello Button!";  
   }  
   if($data === 2){  
-  echo "heelo Button2";  
+  echo "hello Button2";  
   }  
 });  
   
