@@ -4,7 +4,7 @@ namespace JUNKR\form;
 
 final class CustomForm extends \JUNKR\FormBase{
 
-    public $json = ['type' => 'custom_form', 'title' => 'Title', 'content' => []];
+    protected $json = ['type' => 'custom_form', 'title' => 'Title', 'content' => []];
 
     public function addInput(string $text, ?string $default = null, ?string $placeholder = null){
         $d = ['type' => 'input', 'text' => $text];

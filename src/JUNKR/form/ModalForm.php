@@ -4,7 +4,7 @@ namespace JUNKR\form;
 
 final class ModalForm extends \JUNKR\FormBase{
 
-    private $json = [
+    protected $json = [
         'type' => 'modal',
         'title' => 'Title',
         'content' => 'Content',

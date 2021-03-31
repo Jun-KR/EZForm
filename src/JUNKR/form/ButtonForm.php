@@ -4,7 +4,7 @@ namespace JUNKR\form;
 
 final class ButtonForm extends \JUNKR\FormBase{
 
-    public $json = ['type' => 'form', 'title' => 'Title', 'Content' => 'content', 'buttons' => []];
+    protected $json = ['type' => 'form', 'title' => 'Title', 'Content' => 'content', 'buttons' => []];
 
     public function setContent(string $content){
         $this->json['content'] = $content;
