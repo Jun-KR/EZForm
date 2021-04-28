@@ -13,7 +13,7 @@ final class CustomForm extends \JUNKR\FormBase{
             $d['default'] = $default;
         }
         if($placeholder !== null){
-            $d['placeholder'] = $default;
+            $d['placeholder'] = $placeholder;
         }
 
         $this->json['content'][] = $d;
